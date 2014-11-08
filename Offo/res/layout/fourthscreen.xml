@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   tools:context=".FourthScreenActivity" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the category you wish to obtain offer for" /> 
+        
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/electronics" />
+    
+     <ImageButton
+         android:id="@+id/imageButton42"
+         android:layout_width="164dp"
+         android:layout_height="60dp"
+         android:layout_alignRight="@+id/imageButton41"
+         android:layout_below="@+id/imageButton41"
+         android:contentDescription="@string/android_launcher_image_new"
+         android:src="@drawable/education" />
+     
+      <ImageButton
+          android:id="@+id/imageButton43"
+          android:layout_width="wrap_content"
+          android:layout_height="60dp"
+          android:layout_alignRight="@+id/imageButton42"
+          android:layout_below="@+id/imageButton42"
+          android:contentDescription="@string/android_launcher_image_new"
+          android:src="@drawable/homeappliances" />
+      
+       <ImageButton
+           android:id="@+id/imageButton44"
+           android:layout_width="158dp"
+           android:layout_height="60dp"
+           android:layout_alignRight="@+id/imageButton43"
+           android:layout_below="@+id/imageButton43"
+           android:contentDescription="@string/android_launcher_image_new"
+           android:src="@drawable/footwear" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   tools:context=".ThirdScreenActivity" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the card for offers" /> 
+        
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="141dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/sbi_1" />
+    
+     <ImageButton
+         android:id="@+id/imageButton32"
+         android:layout_width="141dp"
+         android:layout_height="60dp"
+         android:layout_alignRight="@+id/imageButton31"
+         android:layout_below="@+id/imageButton31"
+         android:contentDescription="@string/android_launcher_image_new"
+         android:src="@drawable/sbi_2" />
+     
+      <ImageButton
+          android:id="@+id/imageButton33"
+          android:layout_width="141dp"
+          android:layout_height="60dp"
+          android:layout_alignRight="@+id/imageButton32"
+          android:layout_below="@+id/imageButton32"
+          android:contentDescription="@string/android_launcher_image_new"
+          android:src="@drawable/sbi_3" />
+      
+       <ImageButton
+           android:id="@+id/imageButton34"
+           android:layout_width="141dp"
+           android:layout_height="60dp"
+           android:layout_alignRight="@+id/imageButton33"
+           android:layout_below="@+id/imageButton33"
+           android:contentDescription="@string/android_launcher_image_new"
+           android:src="@drawable/sbi_4" />
+
+</LinearLayout>

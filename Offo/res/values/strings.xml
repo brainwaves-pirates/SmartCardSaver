@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GUIDemo5</string>
+    <string name="action_settings">Settings</string>
+    <string name="example_imagebutton">Choose the bank for specific offers</string>
+    <string name="android_launcher_image"></string>
+     <string name="android_launcher_image_new"></string>
+
+</resources>

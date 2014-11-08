@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IciciScreenActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the card for offers" />
+
+    <ImageButton
+        android:id="@+id/imageButton51"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/icici_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton51"
+        android:layout_below="@+id/imageButton51"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/icici_2" />
+
+    <ImageButton
+        android:id="@+id/imageButton53"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton52"
+        android:layout_below="@+id/imageButton52"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/icici_3" />
+
+    <ImageButton
+        android:id="@+id/imageButton54"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/imageButton53"
+        android:layout_below="@+id/imageButton53"
+        android:contentDescription="@string/android_launcher_image_new"
+        android:src="@drawable/icici_4" />
+
+</LinearLayout>
